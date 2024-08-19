@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply antialiased;
+  }
+
+  *::-webkit-scrollbar {
+    @apply h-2 w-2 rounded bg-transparent;
+  }
+
+  *::-webkit-scrollbar-track {
+    @apply rounded bg-transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    @apply rounded;
+  }
+
+  body {
+    @apply flex min-h-dvh flex-col overflow-x-hidden bg-zinc-950 text-zinc-50;
+  }
+
+  main {
+    @apply flex-1;
+  }
+}
