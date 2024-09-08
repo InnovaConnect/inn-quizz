@@ -16,14 +16,30 @@
   }
 
   *::-webkit-scrollbar-thumb {
-    @apply rounded;
+    @apply rounded-lg bg-zinc-900;
   }
 
   body {
-    @apply flex min-h-dvh flex-col overflow-x-hidden bg-zinc-950 text-zinc-50;
+    @apply h-dvh overflow-x-hidden bg-zinc-950 text-zinc-300;
+  }
+
+  body #root {
+    @apply flex h-full flex-col items-center justify-start;
   }
 
   main {
-    @apply flex-1;
+    @apply flex w-full max-w-[648px] flex-1 flex-col justify-center gap-6 p-6;
+  }
+
+  hr {
+    @apply border-zinc-900;
+  }
+
+  label {
+    @apply text-sm font-medium text-zinc-300;
+  }
+
+  input {
+    @apply min-h-10 w-full rounded-lg border border-zinc-800 bg-transparent bg-zinc-900 px-4 py-2 text-sm text-zinc-100 outline-none ring-blue-600 ring-offset-2 ring-offset-zinc-950 placeholder:text-zinc-500 focus-within:ring-1;
   }
 }
