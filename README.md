@@ -1,8 +1,8 @@
 # InnQuizz
 
-> Portal de vendar web de painéis solares.
+> Projeto prático para o Jovens InnDesenvolvimento.
 
-Aplicação web de Quiz desenvolvido com React, Typescript e TailwindCSS.
+Aplicação web de quiz desenvolvido com React, Typescript e TailwindCSS.
 
 A lista complete de bibliotecas e dependências você pode ver em [package.json](./package.json).
 
